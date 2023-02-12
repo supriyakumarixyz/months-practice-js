@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/The-best-April-2022-Calendar-Wallpaper-HD-3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+
+div {
+    max-width: 900px;
+    height: auto;
+    padding: 100px;
+    box-shadow: 1px 1px 15px 10px;
+    background-image: linear-gradient(red, blue, green, yellow);
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#btn {
+    color: rgb(28, 24, 27);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/30/50/43584125d416a63.jpg");
+    width: 150px;
+    height: 30px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#show {
+    margin-top: 30px;
+    text-align: center;
+    opacity: 50%;
+}
